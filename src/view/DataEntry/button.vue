@@ -5,6 +5,8 @@
       <x-button>submit</x-button>
       <x-button type="primary">primary</x-button>
       <x-button type="warn">Delete</x-button>
+      <x-button type="primary" style="border-radius:99px">primary</x-button>
+      <x-button type="warn" style="border-radius:99px">Delete</x-button>
       <divider>action type</divider>
       <x-button type="primary" action-type="button">submit</x-button>
       <x-button type="warn" action-type="reset">reset</x-button>
@@ -14,10 +16,8 @@
       <x-button type="primary" show-loading>submit</x-button>
       <x-button type="warn" show-loading>submit</x-button>
 
-      <divider>loading</divider>
-      <x-button type="primary" style="border-radius:99px">submit</x-button>
-      <x-button type="warn" style="border-radius:99px">submit</x-button>
       
+
       <divider>mini</divider>
       <x-button mini>submit</x-button>
       <x-button mini type="primary">primary</x-button>
